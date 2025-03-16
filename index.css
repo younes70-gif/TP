@@ -1,0 +1,107 @@
+
+body {
+    font-family: italic,Arial, sans-serif;
+    background-color: #e2eef9;
+    text-align: center;
+
+   
+}
+h1 {
+    font-size: 75% 25%;
+    margin: 20px 0;
+}
+
+.A{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.L {
+    position: relative;
+    background-color: #efefef;
+    border: 1px solid #000;
+    padding: 50px 15px 15px; 
+    margin: 10px 0;
+    text-align: left;
+}
+
+@media (min-width: 992px) {
+    .L {
+        width: 30%;
+        height: 250px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .L {
+        width: 48%;
+        height: 250px;
+    }
+    .L:last-child {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .L, background-image {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.title{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #00ff55;
+    color: rgba(35, 134, 65, 0.986);
+    padding: 5px 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.Chickenn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #00ff55;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 1px solid black;
+    font-family: arial;
+}
+
+.beeff {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #00ff55;
+    color: rgba(129, 20, 20, 0.397);
+    padding: 5px 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 1px solid rgb(0, 0, 0);
+    font-family: arial;
+}
+
+.Sushii {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #00ff55;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 1px solid black;
+    font-family: arial;
+}
+.p{
+    font-family: arial;
+}
